@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The résumé and projects of Siddhant Nabera, a BBA student at IIM Bangalore.">
+  <meta name="theme-color" content="#f1efe8">
+  <title>Siddhant Nabera | Résumé</title>
+  <link rel="icon" href="./assets/images/mark.png" type="image/png">
+  <link rel="preload" href="./assets/fonts/roboto-black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./assets/bootstrap-utilities.css">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script src="./assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Siddhant Nabera, back to top">SN<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="chapter-nav" hidden>
+        Menu <span class="menu-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="chapter-nav" id="chapter-nav" aria-label="Résumé sections">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+      </nav>
+      <a class="header-resume" href="./assets/Siddhant-Nabera-Resume.pdf" download>
+        Résumé <i class="arrow arrow-down-right" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div class="scroll-meter" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="cover" aria-labelledby="site-title">
+      <div class="hero" id="hero">
+        <div class="hero-visual" aria-hidden="true">
+          <img src="./assets/images/hero.webp" alt="" width="1536" height="1024" fetchpriority="high">
+        </div>
+        <div class="shell hero-inner">
+          <div class="hero-copy">
+            <p class="small-label"><span class="signal" aria-hidden="true"></span> BBA student at IIM Bangalore</p>
+            <p class="hero-subject">Business, markets<br> &amp; technology</p>
+          </div>
+          <button class="motion-toggle" type="button" hidden>
+            <span class="motion-icon" aria-hidden="true"></span> <span data-motion-label>Pause motion</span>
+          </button>
+        </div>
+      </div>
+      <div class="shell masthead">
+        <a class="scroll-link" href="#about">About me <span class="scroll-ring" aria-hidden="true"><i class="arrow arrow-down"></i></span></a>
+        <h1 id="site-title"><span class="name-part">Siddhant</span> <span class="name-part">Nabera</span></h1>
+      </div>
+    </section>
+
+    <section class="shell about section" id="about" aria-labelledby="about-title">
+      <h2 class="section-title" id="about-title" data-reveal>About me</h2>
+      <div class="about-content" data-reveal>
+        <p class="about-lead">I’m studying business at IIM Bangalore. I like trying out ideas myself, whether that means talking to perfume suppliers for Givodo or getting the BizForHer competition website ready.</p>
+        <p class="profile-note">Outside class, I follow the stock market and build games in Roblox Studio. I’m looking for internships where I can learn how teams research an idea and bring it to market.</p>
+      </div>
+    </section>
+
+    <section class="work section" id="work" aria-labelledby="work-title">
+      <div class="shell">
+        <div class="section-head" data-reveal>
+          <h2 class="section-title" id="work-title">Selected work</h2>
+          <form class="work-filters" aria-label="Filter projects by topic" hidden>
+            <fieldset class="d-flex flex-wrap gap-2">
+              <legend class="sr-only">Project topic</legend>
+              <button type="submit" name="category" value="all" aria-pressed="true">All</button>
+              <button type="submit" name="category" value="business" aria-pressed="false">Business</button>
+              <button type="submit" name="category" value="finance" aria-pressed="false">Finance</button>
+              <button type="submit" name="category" value="technology" aria-pressed="false">Technology</button>
+            </fieldset>
+          </form>
+        </div>
+        <p class="sr-only" id="project-status" role="status"></p>
+        <div class="project-grid" id="project-grid">
+<!-- BEGIN GENERATED PROJECTS -->
+          <article id="project-givodo" class="project-card" data-category="business" data-reveal>
+            <figure class="project-image">
+              <img src="./assets/images/givodo.webp" alt="Amber perfume bottle on burgundy stone." width="768" height="512" loading="lazy" decoding="async">
+            </figure>
+            <div class="project-caption">
+              <h3 class="project-title">Givodo</h3>
+              <p class="project-summary">I started a perfume venture in India.</p>
+              <details class="project-notes">
+                <summary aria-label="View project for Givodo">View project <span class="project-arrow" aria-hidden="true"><i class="arrow arrow-up-right"></i></span></summary>
+                <div class="project-detail">
+                  <p class="project-role">Founder · December 2024 to August 2025</p>
+                  <p>I wanted to see if there was room for a perfume brand between everyday and luxury prices. Givodo gave me a chance to see how a product goes from an idea to something you can actually make.</p>
+                  <ul>
+                    <li>Compared brands in the ₹1,000 to ₹2,500 range and looked at what customers wanted.</li>
+                    <li>Spoke to perfume oil suppliers, manufacturers, packaging vendors and bottle dealers.</li>
+                    <li>Worked through early product development, branding and delivery.</li>
+                  </ul>
+                </div>
+              </details>
+            </div>
+          </article>
+          <article id="project-bizforher" class="project-card" data-category="business" data-reveal>
+            <figure class="project-image">
+              <img src="./assets/images/bizforher.webp" alt="Two presenters on a stage facing the audience." width="768" height="512" loading="lazy" decoding="async">
+            </figure>
+            <div class="project-caption">
+              <h3 class="project-title">BizForHer</h3>
+              <p class="project-summary">I helped run a business case competition that reached 1,700+ participants.</p>
+              <details class="project-notes">
+                <summary aria-label="View project for BizForHer">View project <span class="project-arrow" aria-hidden="true"><i class="arrow arrow-up-right"></i></span></summary>
+                <div class="project-detail">
+                  <p class="project-role">Strategic and Tech Head · February to December 2025</p>
+                  <p>BizForHer is a business case competition for girls. I helped students find the event and sign up, and worked on the website during the competition.</p>
+                  <ul>
+                    <li>Reached out to schools, companies and partners across India.</li>
+                    <li>Worked with Unstop on sign-ups, participant data and running the event.</li>
+                    <li>Helped the competition reach more than 1,700 participants. The event offered over ₹20 lakh in cash prizes, plus scholarships.</li>
+                  </ul>
+                </div>
+              </details>
+            </div>
+          </article>
+          <article id="project-markets" class="project-card" data-category="finance" data-reveal>
+            <figure class="project-image">
+              <img src="./assets/images/markets.webp" alt="Stock chart and pencil on a desk." width="768" height="512" loading="lazy" decoding="async">
+            </figure>
+            <div class="project-caption">
+              <h3 class="project-title">Equity research</h3>
+              <p class="project-summary">How I research a stock before deciding whether to invest.</p>
+              <details class="project-notes">
+                <summary aria-label="View project for Equity research">View project <span class="project-arrow" aria-hidden="true"><i class="arrow arrow-up-right"></i></span></summary>
+                <div class="project-detail">
+                  <p class="project-role">Self-directed investor · July 2023 to present</p>
+                  <p>I spend time going through company financials and keeping up with market news. Stock pitch competitions gave me a chance to explain why I thought a company was worth investing in.</p>
+                  <ul>
+                    <li>Use valuation and momentum to find stocks worth a closer look.</li>
+                    <li>Built a discounted cash flow (DCF) model and investment thesis for the Ascend Berkeley Stock Pitch Competition.</li>
+                    <li>Placed first globally in the competition, which had more than 300 teams.</li>
+                  </ul>
+                </div>
+              </details>
+            </div>
+          </article>
+          <article id="project-roblox" class="project-card" data-category="technology" data-reveal>
+            <figure class="project-image">
+              <img src="./assets/images/roblox.webp" alt="Low-poly game scene with a path between purple rock walls." width="768" height="512" loading="lazy" decoding="async">
+            </figure>
+            <div class="project-caption">
+              <h3 class="project-title">Roblox Studio</h3>
+              <p class="project-summary">The Roblox games I’ve built have had 8,000+ visits.</p>
+              <details class="project-notes">
+                <summary aria-label="View project for Roblox Studio">View project <span class="project-arrow" aria-hidden="true"><i class="arrow arrow-up-right"></i></span></summary>
+                <div class="project-detail">
+                  <p class="project-role">Game developer and designer</p>
+                  <p>I like building maps and working out how the game plays. I’ve also taken on low-poly and mid-poly design commissions.</p>
+                  <ul>
+                    <li>Built maps, menus, controls, rewards and game logic in Roblox Studio.</li>
+                    <li>My Roblox games have had more than 8,000 visits.</li>
+                    <li>Placed second in a national inter-school game development competition.</li>
+                  </ul>
+                </div>
+              </details>
+            </div>
+          </article>
+<!-- END GENERATED PROJECTS -->
+        </div>
+      </div>
+    </section>
+
+    <section class="shell experience section" id="experience" aria-labelledby="experience-title">
+      <div class="section-head" data-reveal>
+        <h2 class="section-title" id="experience-title">Experience</h2>
+      </div>
+      <div class="experience-layout">
+        <div class="experience-column" data-reveal>
+          <h3 class="small-label group-heading">Work &amp; investing</h3>
+          <ul class="role-list">
+            <li>
+              <details>
+                <summary>
+                  <span class="role-name"><strong>Givodo</strong><span>Founder</span></span>
+                  <span class="role-date">Dec 2024 – Aug 2025</span>
+                  <span class="disclosure" aria-hidden="true"></span>
+                </summary>
+                <p>I compared perfume prices in India and got in touch with suppliers, manufacturers and packaging vendors about making the product.</p>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>
+                  <span class="role-name"><strong>BizForHer</strong><span>Strategic and Tech Head</span></span>
+                  <span class="role-date">Feb – Dec 2025</span>
+                  <span class="disclosure" aria-hidden="true"></span>
+                </summary>
+                <p>I reached out to schools and partners, looked after the website and worked with Unstop on sign-ups and participant data.</p>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>
+                  <span class="role-name"><strong>Pegma Resources</strong><span>Production and Marketing Intern</span></span>
+                  <time class="role-date" datetime="2024-06">Jun 2024</time>
+                  <span class="disclosure" aria-hidden="true"></span>
+                </summary>
+                <p>I followed how industrial bulk bags were made and shipped. I also helped prepare invoices and packing lists, and looked up competitors and possible customers abroad.</p>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>
+                  <span class="role-name"><strong>Stock market</strong><span>Self-directed investor</span></span>
+                  <span class="role-date">Jul 2023 – present</span>
+                  <span class="disclosure" aria-hidden="true"></span>
+                </summary>
+                <p>I manage my own portfolio. To decide what to invest in, I look at company financials, valuation, market news and how the stock is moving.</p>
+              </details>
+            </li>
+          </ul>
+        </div>
+        <div class="experience-column" data-reveal>
+          <h3 class="small-label group-heading">Outside class</h3>
+          <ul class="initiative-list">
+            <li>
+              <h4>GauManavPrabha</h4>
+              <p>I co-founded a road safety project that fitted <strong>400+ cows</strong> with glow-in-the-dark belts. I led a team of eight to fit the belts and get more people involved.</p>
+            </li>
+            <li>
+              <h4>School Business Club</h4>
+              <p>As club president, I taught students in Grades 6 to 12 about starting a business, investing, business models and solving cases.</p>
+            </li>
+            <li>
+              <h4>IB textbook resale</h4>
+              <p>I collected used textbooks and resold them to IB students. The books sold for <strong>₹50,000+</strong> in total.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="education section" id="education" aria-labelledby="education-title">
+      <div class="shell">
+        <div class="section-head" data-reveal>
+          <h2 class="section-title" id="education-title">Education</h2>
+        </div>
+        <div class="learning-layout">
+          <div data-reveal>
+            <h3 class="small-label group-heading">Where I studied</h3>
+            <ol class="education-list">
+              <li>
+                <span class="school-date">2026 – 2029</span>
+                <div><h4>IIM Bangalore</h4><p>Bachelor of Business Administration</p></div>
+              </li>
+              <li>
+                <span class="school-date">2024 – 2026</span>
+                <div><h4>Jayshree Periwal International School</h4><p>IB Diploma Programme · Jaipur</p></div>
+              </li>
+              <li>
+                <span class="school-date">Jul – Aug 2025</span>
+                <div><h4>Wharton Global Youth Program</h4><p>Essentials of Entrepreneurship · University of Pennsylvania</p></div>
+              </li>
+              <li>
+                <span class="school-date">2012 – 2024</span>
+                <div><h4>St. Paul’s Sr. Sec. School</h4><p>CBSE Grade 10 · Beawar</p></div>
+              </li>
+            </ol>
+          </div>
+          <div data-reveal>
+            <h3 class="small-label group-heading">Awards &amp; certificates</h3>
+            <ul class="awards">
+              <li>
+                <span class="award-mark">1st<small>globally</small></span>
+                <div><h4>Ascend Berkeley Stock Pitch Competition</h4><p>I presented a DCF valuation and an investment thesis in a competition with 300+ teams.</p></div>
+              </li>
+              <li>
+                <span class="award-mark">Top 5<small>globally</small></span>
+                <div><h4>PennSEM Business Case Competition</h4><p>I worked on company turnaround plans in a case competition with 1,000 participants.</p></div>
+              </li>
+              <li>
+                <span class="award-mark">2nd<small>nationally</small></span>
+                <div><h4>Inter-school Game Development Competition</h4><p>I built a Roblox game with custom maps, menus, controls and rewards.</p></div>
+              </li>
+              <li>
+                <div><h4>Machine Learning Specialization</h4><p>Stanford and DeepLearning.AI</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="skills" data-reveal>
+          <h3 class="small-label group-heading">Skills</h3>
+          <div class="skill-grid">
+            <div><h4>Venture &amp; operations</h4><p>Market research, product development, go-to-market strategy, and operations.</p></div>
+            <div><h4>Finance &amp; analysis</h4><p>Valuation, value investing, portfolio management, and data-driven decisions.</p></div>
+            <div><h4>Technology</h4><p>AI, machine learning, game design, and Roblox Lua scripting.</p></div>
+            <div><h4>Leadership</h4><p>Team management, event growth, pitching, and social impact.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="resume">
+    <div class="shell">
+      <div class="footer-content">
+        <h2>Open to internships</h2>
+        <a class="download-button" href="./assets/Siddhant-Nabera-Resume.pdf" download>
+          Download résumé <i class="arrow arrow-down-right" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="footer-base">
+        <a href="#top">Back to top <i class="arrow arrow-up" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-inner">
+      <div class="dialog-top">
+        <h2 id="dialog-title" tabindex="-1"></h2>
+        <form method="dialog">
+          <button class="icon-button" type="submit" aria-label="Close case study" autofocus>×</button>
+        </form>
+      </div>
+      <div class="dialog-image"></div>
+      <div class="dialog-body"></div>
+      <div class="dialog-nav" aria-label="Browse case studies">
+        <button type="button" data-step="-1"><i class="arrow arrow-left" aria-hidden="true"></i> Previous</button>
+        <button type="button" data-step="1">Next <i class="arrow" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "givodo",
+    "category": "business",
+    "title": "Givodo",
+    "summary": "I started a perfume venture in India.",
+    "image": "givodo.webp",
+    "alt": "Amber perfume bottle on burgundy stone.",
+    "role": "Founder · December 2024 to August 2025",
+    "intro": "I wanted to see if there was room for a perfume brand between everyday and luxury prices. Givodo gave me a chance to see how a product goes from an idea to something you can actually make.",
+    "highlights": [
+      "Compared brands in the ₹1,000 to ₹2,500 range and looked at what customers wanted.",
+      "Spoke to perfume oil suppliers, manufacturers, packaging vendors and bottle dealers.",
+      "Worked through early product development, branding and delivery."
+    ]
+  },
+  {
+    "id": "bizforher",
+    "category": "business",
+    "title": "BizForHer",
+    "summary": "I helped run a business case competition that reached 1,700+ participants.",
+    "image": "bizforher.webp",
+    "alt": "Two presenters on a stage facing the audience.",
+    "role": "Strategic and Tech Head · February to December 2025",
+    "intro": "BizForHer is a business case competition for girls. I helped students find the event and sign up, and worked on the website during the competition.",
+    "highlights": [
+      "Reached out to schools, companies and partners across India.",
+      "Worked with Unstop on sign-ups, participant data and running the event.",
+      "Helped the competition reach more than 1,700 participants. The event offered over ₹20 lakh in cash prizes, plus scholarships."
+    ]
+  },
+  {
+    "id": "markets",
+    "category": "finance",
+    "title": "Equity research",
+    "summary": "How I research a stock before deciding whether to invest.",
+    "image": "markets.webp",
+    "alt": "Stock chart and pencil on a desk.",
+    "role": "Self-directed investor · July 2023 to present",
+    "intro": "I spend time going through company financials and keeping up with market news. Stock pitch competitions gave me a chance to explain why I thought a company was worth investing in.",
+    "highlights": [
+      "Use valuation and momentum to find stocks worth a closer look.",
+      "Built a discounted cash flow (DCF) model and investment thesis for the Ascend Berkeley Stock Pitch Competition.",
+      "Placed first globally in the competition, which had more than 300 teams."
+    ]
+  },
+  {
+    "id": "roblox",
+    "category": "technology",
+    "title": "Roblox Studio",
+    "summary": "The Roblox games I’ve built have had 8,000+ visits.",
+    "image": "roblox.webp",
+    "alt": "Low-poly game scene with a path between purple rock walls.",
+    "role": "Game developer and designer",
+    "intro": "I like building maps and working out how the game plays. I’ve also taken on low-poly and mid-poly design commissions.",
+    "highlights": [
+      "Built maps, menus, controls, rewards and game logic in Roblox Studio.",
+      "My Roblox games have had more than 8,000 visits.",
+      "Placed second in a national inter-school game development competition."
+    ]
+  }
+]
